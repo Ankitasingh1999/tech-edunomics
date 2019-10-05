@@ -1,0 +1,21 @@
+.con {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.outline{
+  border: 2px solid red;
+  width: 30%;
+}
+.outline1{
+  border: 2px solid red;
+  width: 15%;
+}
+
+
