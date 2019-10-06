@@ -1,4 +1,11 @@
-.outline{
-    border: 2px solid red;
-    width: 25%;
-  }
+.btn{
+    margin-top:60px;
+border-radius:25px;
+}
+.btn:hover{
+    background-color:#000;
+    color:#fff;
+}
+*{
+    overflow: hidden;
+}

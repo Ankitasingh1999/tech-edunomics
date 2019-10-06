@@ -10,6 +10,9 @@ import { ContactComponent } from './contact/contact.component';
 import { PartnersComponent } from './partners/partners.component';
 import { HowWeWorkComponent } from './how-we-work/how-we-work.component';
 import { AffiliateProgrammeComponent } from './affiliate-programme/affiliate-programme.component';
+import { WhitepaperComponent } from './whitepaper/whitepaper.component';
+import { SolutionComponent } from './solution/solution.component';
+import { TeamComponent } from './team/team.component';
 
 
 const routes: Routes = [
@@ -30,12 +33,24 @@ const routes: Routes = [
     component:ServiceComponent
   },
   {
+    path:'solution',
+    component:SolutionComponent
+  },
+  {
+    path:'team',
+    component:TeamComponent
+  },
+  {
     path:'blog',
     component:BlogComponent
   },
   {
     path:'casestudies',
     component:CasestudiesComponent
+  },
+  {
+    path:'whitepaper',
+    component:WhitepaperComponent
   },
   {
     path:'career',

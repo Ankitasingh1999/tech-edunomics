@@ -4,4 +4,45 @@ body{
 }
 *{
     font-family: roboto;
+  
 }
+// footer 
+
+/* Footer css */
+footer {
+    background: #343a40;
+    padding-top:40px;
+    margin-top:40px;
+}
+footer a {
+    color: #f8f9fa!important;
+    
+}
+.edu{
+    margin-left:250px;
+}
+
+h5{
+    margin-bottom:20px;
+}
+// .list-unstyled ,h5{
+//     text-align: center;
+// }
+.hhrr{
+    background: #e0e0e0;
+    width: 1px;
+}
+.row.vdivide [class*='col-']:not(:last-child):after {
+    background: #e0e0e0;
+    width: 1px;
+    content: "";
+    display:block;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right: 0;
+    min-height: 70px;
+  }
+  hr{
+    background: #e0e0e0; 
+  }

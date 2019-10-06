@@ -18,6 +18,9 @@ import { FormsModule } from '@angular/forms';
 import { PartnersComponent } from './partners/partners.component';
 import { HowWeWorkComponent } from './how-we-work/how-we-work.component';
 import { AffiliateProgrammeComponent } from './affiliate-programme/affiliate-programme.component';
+import { WhitepaperComponent } from './whitepaper/whitepaper.component';
+import { SolutionComponent } from './solution/solution.component';
+import { TeamComponent } from './team/team.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +35,10 @@ import { AffiliateProgrammeComponent } from './affiliate-programme/affiliate-pro
     ContactComponent,
     PartnersComponent,
     HowWeWorkComponent,
-    AffiliateProgrammeComponent
+    AffiliateProgrammeComponent,
+    WhitepaperComponent,
+    SolutionComponent,
+    TeamComponent
   ],
   imports: [
     BrowserModule,
